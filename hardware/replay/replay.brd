@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -152,6 +152,8 @@ TIME ADJ</text>
 <text x="7.62" y="26.416" size="0.889" layer="25" font="vector">NORM</text>
 <text x="11.938" y="26.416" size="0.889" layer="25" font="vector">CC</text>
 <text x="15.494" y="26.416" size="0.889" layer="25" font="vector">CT</text>
+<text x="31.4198" y="1.9812" size="2.54" layer="25" font="vector" rot="R180">-</text>
+<text x="29.083" y="11.2014" size="2.54" layer="25" font="vector">+</text>
 </plain>
 <libraries>
 <library name="logos">
@@ -328,35 +330,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 </package>
 </packages>
 </library>
-<library name="SparkFun-Connectors">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find connectors and sockets- basically anything that can be plugged into or onto.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="SCREWTERMINAL-5MM-2">
-<wire x1="-3.1" y1="4.2" x2="8.1" y2="4.2" width="0.2032" layer="21"/>
-<wire x1="8.1" y1="4.2" x2="8.1" y2="-2.3" width="0.2032" layer="21"/>
-<wire x1="8.1" y1="-2.3" x2="8.1" y2="-3.3" width="0.2032" layer="21"/>
-<wire x1="8.1" y1="-3.3" x2="-3.1" y2="-3.3" width="0.2032" layer="21"/>
-<wire x1="-3.1" y1="-3.3" x2="-3.1" y2="-2.3" width="0.2032" layer="21"/>
-<wire x1="-3.1" y1="-2.3" x2="-3.1" y2="4.2" width="0.2032" layer="21"/>
-<wire x1="8.1" y1="-2.3" x2="-3.1" y2="-2.3" width="0.2032" layer="21"/>
-<wire x1="-3.1" y1="-1.35" x2="-3.7" y2="-1.35" width="0.2032" layer="51"/>
-<wire x1="-3.7" y1="-1.35" x2="-3.7" y2="-2.35" width="0.2032" layer="51"/>
-<wire x1="-3.7" y1="-2.35" x2="-3.1" y2="-2.35" width="0.2032" layer="51"/>
-<wire x1="8.1" y1="4" x2="8.7" y2="4" width="0.2032" layer="51"/>
-<wire x1="8.7" y1="4" x2="8.7" y2="3" width="0.2032" layer="51"/>
-<wire x1="8.7" y1="3" x2="8.1" y2="3" width="0.2032" layer="51"/>
-<circle x="2.5" y="3.7" radius="0.2828" width="0.127" layer="51"/>
-<pad name="1" x="0" y="0" drill="1.3" diameter="2.032" shape="square"/>
-<pad name="2" x="5" y="0" drill="1.3" diameter="2.032"/>
-<text x="-1.27" y="2.54" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.27" y="1.27" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-</library>
 <library name="passives">
 <description>&lt;b&gt;LAB11&lt;/b&gt; - Resistors, caps, etc.</description>
 <packages>
@@ -472,6 +445,18 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="2.54" y1="-1.27" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="1.905" y1="-1.905" x2="3.175" y2="-1.905" width="0.127" layer="21"/>
 <wire x1="1.905" y1="3.81" x2="3.175" y2="3.81" width="0.127" layer="21"/>
+</package>
+<package name="PHEONIX-1935161">
+<pad name="1" x="0" y="0" drill="1.3"/>
+<pad name="2" x="5" y="0" drill="1.3"/>
+<wire x1="-2.5" y1="4" x2="7.5" y2="4" width="0.127" layer="21"/>
+<wire x1="7.5" y1="4" x2="7.5" y2="-4.3" width="0.127" layer="21"/>
+<wire x1="7.5" y1="-4.3" x2="7.5" y2="-5" width="0.127" layer="21"/>
+<wire x1="7.5" y1="-5" x2="-2.5" y2="-5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-5" x2="-2.5" y2="-4.3" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-4.3" x2="-2.5" y2="4" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-4.3" x2="7.5" y2="-4.3" width="0.127" layer="21"/>
+<text x="-2.54" y="5.08" size="1.27" layer="25">&gt;NAME</text>
 </package>
 </packages>
 </library>
@@ -708,10 +693,6 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <element name="C6" library="passives" package="0603_CAP" value="100uF" x="22.098" y="15.24" smashed="yes" rot="R270">
 <attribute name="NAME" x="23.622" y="14.224" size="0.889" layer="25" font="vector" ratio="12" align="bottom-center"/>
 </element>
-<element name="JP1" library="SparkFun-Connectors" package="SCREWTERMINAL-5MM-2" value="" x="31.5722" y="4.826" smashed="yes" rot="R90">
-<attribute name="NAME" x="32.004" y="14.0462" size="0.889" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="30.3022" y="3.556" size="0.4064" layer="27" rot="R90"/>
-</element>
 <element name="SW2" library="switches" package="500ASSP" value="500ASSP" x="24.638" y="20.066" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="EG2483-ND" x="24.638" y="20.066" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -732,6 +713,10 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 </element>
 <element name="SW1" library="switches" package="OS103011" value="OS103011" x="12.7" y="29.6" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="CKN9561-ND" x="12.7" y="29.6" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="J2" library="connector" package="PHEONIX-1935161" value="SCREW_TERMINAL" x="29.8958" y="3.8354" smashed="yes" rot="R90">
+<attribute name="DIGIKEY" value="277-1667-ND" x="29.8958" y="3.8354" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="34.6202" y="12.5984" size="0.889" layer="25" font="vector" rot="R180"/>
 </element>
 </elements>
 <signals>
@@ -763,10 +748,8 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="C1" pad="2"/>
 <contactref element="C2" pad="2"/>
 <contactref element="C4" pad="2"/>
-<contactref element="C3" pad="2"/>
 <contactref element="C5" pad="2"/>
 <contactref element="C6" pad="2"/>
-<contactref element="JP1" pad="1"/>
 <contactref element="R9" pad="3"/>
 <via x="6.096" y="23.876" extent="1-16" drill="0.2032"/>
 <via x="11.938" y="28.448" extent="1-16" drill="0.2032"/>
@@ -776,6 +759,8 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="J3" pad="2"/>
 <contactref element="J3" pad="3"/>
 <contactref element="SW1" pad="2"/>
+<contactref element="J2" pad="1"/>
+<contactref element="C3" pad="2"/>
 </signal>
 <signal name="OUT1">
 <contactref element="U1" pad="5"/>
@@ -802,7 +787,6 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="U2" pad="11"/>
 <contactref element="U2" pad="8"/>
 <contactref element="U2" pad="7"/>
-<contactref element="U3" pad="3"/>
 <contactref element="C4" pad="1"/>
 <polygon width="0.2032" layer="1" thermals="no">
 <vertex x="12.192" y="19.05"/>
@@ -810,7 +794,6 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <vertex x="15.748" y="14.478"/>
 <vertex x="12.192" y="14.478"/>
 </polygon>
-<wire x1="2.888" y1="21.848" x2="2.29" y2="21.848" width="0.254" layer="1"/>
 <wire x1="2.29" y1="21.848" x2="2.032" y2="21.59" width="0.254" layer="1"/>
 <wire x1="2.032" y1="21.59" x2="2.032" y2="20.066" width="0.254" layer="1"/>
 <wire x1="2.032" y1="20.066" x2="2.286" y2="19.812" width="0.254" layer="1"/>
@@ -818,6 +801,8 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="12.954" y1="19.812" x2="13.208" y2="19.558" width="0.254" layer="1"/>
 <wire x1="13.208" y1="19.558" x2="13.208" y2="17.278" width="0.254" layer="1"/>
 <wire x1="13.208" y1="17.278" x2="13.214" y2="17.272" width="0.254" layer="1"/>
+<contactref element="U3" pad="3"/>
+<wire x1="2.29" y1="21.848" x2="2.888" y2="21.848" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="U1" pad="6"/>
@@ -837,7 +822,6 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="U1" pad="7"/>
 <contactref element="U4" pad="1"/>
 <contactref element="C1" pad="1"/>
-<contactref element="C3" pad="1"/>
 <polygon width="0.2032" layer="1" thermals="no" rank="2">
 <vertex x="1.524" y="8.128"/>
 <vertex x="1.524" y="15.494"/>
@@ -856,6 +840,7 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="J3" pad="1"/>
 <wire x1="22.606" y1="10.922" x2="13.97" y2="10.922" width="0.2032" layer="16"/>
 <via x="13.97" y="10.922" extent="1-16" drill="0.2032"/>
+<contactref element="C3" pad="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="U2" pad="6"/>
@@ -891,8 +876,6 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="U3" pad="14"/>
 <contactref element="R2" pad="1"/>
 <contactref element="R3" pad="1"/>
-<contactref element="J1" pad="A3"/>
-<contactref element="J1" pad="A1"/>
 <contactref element="R5" pad="2"/>
 <contactref element="R9" pad="1"/>
 <contactref element="R8" pad="2"/>
@@ -929,7 +912,6 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="4.572" y1="22.262" x2="4.318" y2="22.098" width="0.254" layer="1"/>
 <via x="4.318" y="22.098" extent="1-16" drill="0.2032"/>
 <wire x1="4.318" y1="22.098" x2="4.3442" y2="22.0718" width="0.254" layer="16"/>
-<wire x1="4.3442" y1="22.0718" x2="4.3442" y2="19.5452" width="0.254" layer="16"/>
 <wire x1="17.446" y1="22.062" x2="16.8" y2="22.062" width="0.254" layer="1"/>
 <wire x1="16.8" y1="22.062" x2="16.51" y2="22.098" width="0.254" layer="1"/>
 <via x="16.51" y="22.098" extent="1-16" drill="0.2032"/>
@@ -938,11 +920,14 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <via x="17.018" y="14.224" extent="1-16" drill="0.2032"/>
 <wire x1="17.018" y1="14.224" x2="17.892" y2="13.604" width="0.254" layer="1"/>
 <wire x1="17.892" y1="13.604" x2="18.034" y2="13.604" width="0.254" layer="1"/>
-<wire x1="4.3442" y1="19.5452" x2="4.3442" y2="19.1452" width="0.2032" layer="16"/>
 <wire x1="10.78" y1="25.654" x2="10.668" y2="25.4" width="0.254" layer="1"/>
 <wire x1="10.668" y1="25.4" x2="9.652" y2="26.416" width="0.254" layer="1"/>
 <wire x1="9.652" y1="26.416" x2="9.652" y2="30.48" width="0.254" layer="1"/>
 <wire x1="9.652" y1="30.48" x2="9.906" y2="30.734" width="0.254" layer="1"/>
+<contactref element="J1" pad="A3"/>
+<contactref element="J1" pad="A1"/>
+<wire x1="4.3442" y1="19.5452" x2="4.3442" y2="19.1452" width="0.2032" layer="16"/>
+<wire x1="4.3442" y1="22.0718" x2="4.3442" y2="19.1452" width="0.2032" layer="16"/>
 </signal>
 <signal name="I_SET_CS">
 <contactref element="U3" pad="12"/>
@@ -1064,16 +1049,16 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="J1" pad="B8"/>
 </signal>
 <signal name="OUTS">
-<contactref element="JP1" pad="2"/>
 <contactref element="SW2" pad="1"/>
 <polygon width="0.254" layer="1" thermals="no" rank="2">
 <vertex x="23.876" y="11.176"/>
 <vertex x="23.876" y="18.542"/>
 <vertex x="33.782" y="18.542"/>
-<vertex x="33.782" y="8.382"/>
-<vertex x="28.956" y="8.382"/>
-<vertex x="28.956" y="11.176"/>
+<vertex x="33.782" y="7.366"/>
+<vertex x="26.416" y="7.366"/>
+<vertex x="26.416" y="11.176"/>
 </polygon>
+<contactref element="J2" pad="2"/>
 </signal>
 <signal name="POT_OUT">
 <contactref element="J1" pad="B5"/>
