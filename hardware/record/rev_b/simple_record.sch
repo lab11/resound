@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="Invisible" color="7" fill="1" visible="yes" active="no"/>
-<layer number="61" name="stand" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="Invisible" color="7" fill="1" visible="no" active="no"/>
+<layer number="61" name="stand" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -6871,24 +6871,24 @@ Requires two DF40C-10DS-0.4V(51).</description>
 <part name="FRAME1" library="frames" deviceset="LETTER_L" device=""/>
 <part name="Q1" library="fets" deviceset="MOSFET-NCHANNEL" device="SMD"/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R2" library="passives" deviceset="RESISTOR" device="" value="176k"/>
-<part name="R3" library="passives" deviceset="RESISTOR" device="" value="24k"/>
-<part name="C1" library="passives" deviceset="CAPACITOR" device="0603_CAP" value="10uF"/>
+<part name="R4" library="passives" deviceset="RESISTOR" device="" value="176k"/>
+<part name="R2" library="passives" deviceset="RESISTOR" device="" value="24k"/>
+<part name="C2" library="passives" deviceset="CAPACITOR" device="0603_CAP" value="10uF"/>
 <part name="R1" library="passives" deviceset="RESISTOR" device="" value="0.12"/>
-<part name="J1" library="squall" deviceset="SQUALL_HEADER" device=""/>
+<part name="J4" library="squall" deviceset="SQUALL_HEADER" device=""/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="TP2" library="headers" deviceset="TEST_POINT_0.040IN" device=""/>
 <part name="TP3" library="headers" deviceset="TEST_POINT_0.040IN" device=""/>
 <part name="TP4" library="headers" deviceset="TEST_POINT_0.040IN" device=""/>
 <part name="TP5" library="headers" deviceset="TEST_POINT_0.040IN" device=""/>
 <part name="TP6" library="headers" deviceset="TEST_POINT_0.040IN" device=""/>
+<part name="J2" library="headers" deviceset="SCREW-TERMINAL_2_0.100" device=""/>
 <part name="J3" library="headers" deviceset="SCREW-TERMINAL_2_0.100" device=""/>
-<part name="J4" library="headers" deviceset="SCREW-TERMINAL_2_0.100" device=""/>
-<part name="U$3" library="connector" deviceset="PJ-035C" device=""/>
+<part name="J1" library="connector" deviceset="PJ-035C" device=""/>
 <part name="U1" library="chips" deviceset="MAX992" device="3H" value="MAX9923T"/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C3" library="passives" deviceset="CAPACITOR" device="" value="1nF"/>
-<part name="R6" library="passives" deviceset="RESISTOR" device="" value="100k"/>
+<part name="C1" library="passives" deviceset="CAPACITOR" device="" value="1nF"/>
+<part name="R3" library="passives" deviceset="RESISTOR" device="" value="100k"/>
 <part name="TP1" library="headers" deviceset="TEST_POINT_0.040IN" device=""/>
 <part name="TP7" library="headers" deviceset="TEST_POINT_0.040IN" device=""/>
 <part name="U$1" library="logos" deviceset="UCB_CAL" device="75MIL"/>
@@ -6905,24 +6905,24 @@ Requires two DF40C-10DS-0.4V(51).</description>
 <attribute name="NAME" x="213.36" y="81.28" size="1.778" layer="95"/>
 </instance>
 <instance part="GND2" gate="1" x="208.28" y="63.5"/>
-<instance part="R2" gate="G$1" x="220.98" y="99.06" rot="R90"/>
-<instance part="R3" gate="G$1" x="220.98" y="83.82" rot="R90"/>
-<instance part="C1" gate="G$1" x="233.68" y="83.82"/>
+<instance part="R4" gate="G$1" x="220.98" y="99.06" rot="R90"/>
+<instance part="R2" gate="G$1" x="220.98" y="83.82" rot="R90"/>
+<instance part="C2" gate="G$1" x="233.68" y="83.82"/>
 <instance part="R1" gate="G$1" x="208.28" y="96.52" rot="R90"/>
-<instance part="J1" gate="G$1" x="40.64" y="142.24"/>
+<instance part="J4" gate="G$1" x="40.64" y="142.24"/>
 <instance part="GND4" gate="1" x="15.24" y="116.84"/>
 <instance part="TP2" gate="G$1" x="20.32" y="121.92"/>
 <instance part="TP3" gate="G$1" x="198.12" y="81.28" rot="R270"/>
 <instance part="TP4" gate="G$1" x="226.06" y="91.44"/>
 <instance part="TP5" gate="G$1" x="220.98" y="111.76" rot="R90"/>
 <instance part="TP6" gate="G$1" x="208.28" y="88.9" rot="R90"/>
-<instance part="J3" gate="G$1" x="175.26" y="139.7"/>
-<instance part="J4" gate="G$1" x="175.26" y="127"/>
-<instance part="U$3" gate="G$1" x="177.8" y="157.48"/>
+<instance part="J2" gate="G$1" x="175.26" y="139.7"/>
+<instance part="J3" gate="G$1" x="175.26" y="127"/>
+<instance part="J1" gate="G$1" x="177.8" y="157.48"/>
 <instance part="U1" gate="G$1" x="111.76" y="91.44"/>
 <instance part="GND3" gate="1" x="96.52" y="73.66"/>
-<instance part="C3" gate="G$1" x="134.62" y="86.36"/>
-<instance part="R6" gate="G$1" x="147.32" y="76.2" rot="R270"/>
+<instance part="C1" gate="G$1" x="134.62" y="86.36"/>
+<instance part="R3" gate="G$1" x="147.32" y="76.2" rot="R270"/>
 <instance part="TP1" gate="G$1" x="137.16" y="71.12"/>
 <instance part="TP7" gate="G$1" x="129.54" y="88.9"/>
 <instance part="U$1" gate="G$1" x="236.22" y="177.8"/>
@@ -6935,18 +6935,18 @@ Requires two DF40C-10DS-0.4V(51).</description>
 <pinref part="GND2" gate="1" pin="GND"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <wire x1="208.28" y1="66.04" x2="208.28" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="71.12" x2="208.28" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="78.74" x2="220.98" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="71.12" x2="208.28" y2="71.12" width="0.1524" layer="91"/>
 <junction x="208.28" y="71.12"/>
-<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="233.68" y1="78.74" x2="233.68" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="71.12" x2="220.98" y2="71.12" width="0.1524" layer="91"/>
 <junction x="220.98" y="71.12"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="GND"/>
+<pinref part="J4" gate="G$1" pin="GND"/>
 <wire x1="25.4" y1="121.92" x2="22.86" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="22.86" y1="121.92" x2="15.24" y2="121.92" width="0.1524" layer="91"/>
@@ -6957,10 +6957,10 @@ Requires two DF40C-10DS-0.4V(51).</description>
 <segment>
 <wire x1="185.42" y1="154.94" x2="187.96" y2="154.94" width="0.1524" layer="91"/>
 <label x="187.96" y="154.94" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="GND"/>
+<pinref part="J1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="1"/>
+<pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="139.7" x2="185.42" y2="139.7" width="0.1524" layer="91"/>
 <label x="185.42" y="139.7" size="1.016" layer="95" xref="yes"/>
 </segment>
@@ -6982,7 +6982,7 @@ Requires two DF40C-10DS-0.4V(51).</description>
 <label x="208.28" y="134.62" size="1.778" layer="95" rot="R90" xref="yes"/>
 <wire x1="208.28" y1="127" x2="208.28" y2="101.6" width="0.1524" layer="91"/>
 <junction x="208.28" y="127"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="220.98" y1="104.14" x2="220.98" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="220.98" y1="114.3" x2="220.98" y2="127" width="0.1524" layer="91"/>
@@ -6992,15 +6992,15 @@ Requires two DF40C-10DS-0.4V(51).</description>
 <segment>
 <wire x1="185.42" y1="160.02" x2="187.96" y2="160.02" width="0.1524" layer="91"/>
 <label x="187.96" y="160.02" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="VCC"/>
+<pinref part="J1" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="2"/>
+<pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="137.16" x2="185.42" y2="137.16" width="0.1524" layer="91"/>
 <label x="185.42" y="137.16" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="2"/>
+<pinref part="J3" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="124.46" x2="185.42" y2="124.46" width="0.1524" layer="91"/>
 <label x="185.42" y="124.46" size="1.016" layer="95" xref="yes"/>
 </segment>
@@ -7025,14 +7025,14 @@ Requires two DF40C-10DS-0.4V(51).</description>
 <junction x="198.12" y="78.74"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="P22"/>
+<pinref part="J4" gate="G$1" pin="P22"/>
 <wire x1="55.88" y1="129.54" x2="58.42" y2="129.54" width="0.1524" layer="91"/>
 <label x="58.42" y="129.54" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="VCC"/>
+<pinref part="J4" gate="G$1" pin="VCC"/>
 <wire x1="25.4" y1="157.48" x2="20.32" y2="157.48" width="0.1524" layer="91"/>
 <label x="20.32" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -7043,17 +7043,17 @@ Requires two DF40C-10DS-0.4V(51).</description>
 <label x="96.52" y="109.22" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="147.32" y1="81.28" x2="147.32" y2="83.82" width="0.1524" layer="91"/>
 <label x="147.32" y="83.82" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="VOUT" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="220.98" y1="93.98" x2="220.98" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="220.98" y1="91.44" x2="220.98" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="91.44" x2="228.6" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="91.44" x2="233.68" y2="91.44" width="0.1524" layer="91"/>
@@ -7064,7 +7064,7 @@ Requires two DF40C-10DS-0.4V(51).</description>
 <junction x="228.6" y="91.44"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="A6"/>
+<pinref part="J4" gate="G$1" pin="A6"/>
 <wire x1="55.88" y1="137.16" x2="60.96" y2="137.16" width="0.1524" layer="91"/>
 <label x="60.96" y="137.16" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -7072,7 +7072,7 @@ Requires two DF40C-10DS-0.4V(51).</description>
 <net name="OUT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="OUT"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="88.9" x2="132.08" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="88.9" x2="134.62" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="88.9" x2="137.16" y2="88.9" width="0.1524" layer="91"/>
@@ -7082,7 +7082,7 @@ Requires two DF40C-10DS-0.4V(51).</description>
 <junction x="132.08" y="88.9"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="A5"/>
+<pinref part="J4" gate="G$1" pin="A5"/>
 <wire x1="55.88" y1="139.7" x2="60.96" y2="139.7" width="0.1524" layer="91"/>
 <label x="60.96" y="139.7" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -7092,7 +7092,7 @@ Requires two DF40C-10DS-0.4V(51).</description>
 <pinref part="U1" gate="G$1" pin="FB"/>
 <wire x1="124.46" y1="83.82" x2="129.54" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="83.82" x2="129.54" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="81.28" x2="134.62" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -7101,7 +7101,7 @@ Requires two DF40C-10DS-0.4V(51).</description>
 <pinref part="U1" gate="G$1" pin="!SHDN"/>
 <wire x1="124.46" y1="78.74" x2="127" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="127" y1="78.74" x2="127" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="127" y1="71.12" x2="139.7" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="71.12" x2="147.32" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="127" y1="78.74" x2="129.54" y2="78.74" width="0.1524" layer="91"/>
@@ -7111,7 +7111,7 @@ Requires two DF40C-10DS-0.4V(51).</description>
 <junction x="139.7" y="71.12"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="P23"/>
+<pinref part="J4" gate="G$1" pin="P23"/>
 <wire x1="55.88" y1="127" x2="58.42" y2="127" width="0.1524" layer="91"/>
 <label x="58.42" y="127" size="1.016" layer="95" xref="yes"/>
 </segment>
@@ -7131,7 +7131,7 @@ Requires two DF40C-10DS-0.4V(51).</description>
 <junction x="208.28" y="91.44"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="1"/>
+<pinref part="J3" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="127" x2="185.42" y2="127" width="0.1524" layer="91"/>
 <label x="185.42" y="127" size="1.016" layer="95" xref="yes"/>
 </segment>
