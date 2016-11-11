@@ -1063,6 +1063,7 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <elements>
 <element name="Q1" library="fets" package="SOT23-3" value="MOSFET-NCHANNELSMD" x="-1.524" y="-0.508" smashed="yes" rot="R270">
 <attribute name="NAME" x="-3.89" y="-0.756" size="1.016" layer="25" font="vector" ratio="12" align="bottom-center"/>
+<attribute name="DIGIKEY" value="DMN3023L-7DICT-ND" x="-1.524" y="-0.508" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R4" library="passives" package="0603-RES" value="176k" x="4.064" y="-7.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="2.448" y="-7.218" size="1.016" layer="25" font="vector" ratio="12" rot="R180" align="bottom-center"/>
@@ -1108,7 +1109,7 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="DIGIKEY" value="CP-035C-ND" x="6.604" y="6.35" size="1.778" layer="27" font="vector" ratio="12" display="off"/>
 </element>
 <element name="U1" library="chips" package="UMAX10" value="MAX9923T" x="-4.064" y="-4.826" rot="R90">
-<attribute name="DIGIKEY" value="MAX9923HEUB+-ND" x="-4.064" y="-4.826" size="1.778" layer="27" font="vector" ratio="12" rot="R90" display="off"/>
+<attribute name="DIGIKEY" value="MAX9923TEUB+TCT-ND" x="-4.064" y="-4.826" size="1.778" layer="27" font="vector" ratio="12" rot="R90" display="off"/>
 </element>
 <element name="C1" library="passives" package="0402_CAP" value="1nF" x="-9.144" y="-4.826" smashed="yes" rot="R90">
 <attribute name="NAME" x="-9.525" y="-4.826" size="1.016" layer="25" font="vector" ratio="12" rot="R90" align="bottom-center"/>

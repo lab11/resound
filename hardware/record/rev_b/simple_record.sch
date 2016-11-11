@@ -6869,7 +6869,9 @@ Requires two DF40C-10DS-0.4V(51).</description>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="LETTER_L" device=""/>
-<part name="Q1" library="fets" deviceset="MOSFET-NCHANNEL" device="SMD"/>
+<part name="Q1" library="fets" deviceset="MOSFET-NCHANNEL" device="SMD">
+<attribute name="DIGIKEY" value="DMN3023L-7DICT-ND"/>
+</part>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R4" library="passives" deviceset="RESISTOR" device="" value="176k"/>
 <part name="R2" library="passives" deviceset="RESISTOR" device="" value="24k"/>
@@ -6885,7 +6887,9 @@ Requires two DF40C-10DS-0.4V(51).</description>
 <part name="J2" library="headers" deviceset="SCREW-TERMINAL_2_0.100" device=""/>
 <part name="J3" library="headers" deviceset="SCREW-TERMINAL_2_0.100" device=""/>
 <part name="J1" library="connector" deviceset="PJ-035C" device=""/>
-<part name="U1" library="chips" deviceset="MAX992" device="3H" value="MAX9923T"/>
+<part name="U1" library="chips" deviceset="MAX992" device="3H" value="MAX9923T">
+<attribute name="DIGIKEY" value="MAX9923TEUB+TCT-ND"/>
+</part>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C1" library="passives" deviceset="CAPACITOR" device="" value="1nF"/>
 <part name="R3" library="passives" deviceset="RESISTOR" device="" value="100k"/>
@@ -6903,6 +6907,7 @@ Requires two DF40C-10DS-0.4V(51).</description>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
 <instance part="Q1" gate="G$1" x="208.28" y="78.74" smashed="yes">
 <attribute name="NAME" x="210.82" y="81.28" size="1.778" layer="95"/>
+<attribute name="DIGIKEY" x="208.28" y="78.74" size="1.27" layer="96" align="bottom-center" display="off"/>
 </instance>
 <instance part="GND2" gate="1" x="208.28" y="66.04"/>
 <instance part="R4" gate="G$1" x="220.98" y="99.06" rot="R90"/>
