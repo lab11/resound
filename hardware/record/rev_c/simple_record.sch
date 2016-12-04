@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -7201,8 +7201,8 @@ Requires two DF40C-10DS-0.4V(51).</description>
 <instance part="J3" gate="G$1" x="175.26" y="127"/>
 <instance part="J1" gate="G$1" x="177.8" y="157.48"/>
 <instance part="GND3" gate="1" x="116.84" y="68.58"/>
-<instance part="TP1" gate="G$1" x="106.68" y="81.28"/>
-<instance part="TP7" gate="G$1" x="83.82" y="86.36" rot="R180"/>
+<instance part="TP1" gate="G$1" x="111.76" y="81.28" rot="R270"/>
+<instance part="TP7" gate="G$1" x="81.28" y="88.9" rot="R270"/>
 <instance part="U$1" gate="G$1" x="236.22" y="177.8"/>
 <instance part="H1" gate="G$1" x="25.4" y="22.86"/>
 <instance part="H2" gate="G$1" x="25.4" y="17.78"/>
@@ -7214,7 +7214,7 @@ Requires two DF40C-10DS-0.4V(51).</description>
 <instance part="C1" gate="G$1" x="88.9" y="83.82"/>
 <instance part="R2" gate="G$1" x="99.06" y="86.36"/>
 <instance part="R4" gate="G$1" x="119.38" y="86.36" rot="R90"/>
-<instance part="TP8" gate="G$1" x="114.3" y="93.98" rot="R270"/>
+<instance part="TP8" gate="G$1" x="116.84" y="93.98" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -7344,14 +7344,15 @@ Requires two DF40C-10DS-0.4V(51).</description>
 </segment>
 <segment>
 <wire x1="124.46" y1="91.44" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="91.44" x2="114.3" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="91.44" x2="116.84" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="91.44" x2="114.3" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="91.44" x2="114.3" y2="99.06" width="0.1524" layer="91"/>
 <label x="114.3" y="99.06" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="VDD"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <junction x="119.38" y="91.44"/>
 <pinref part="TP8" gate="G$1" pin="TESTPOINT"/>
-<junction x="114.3" y="91.44"/>
+<junction x="116.84" y="91.44"/>
 </segment>
 </net>
 <net name="VOUT" class="0">
@@ -7404,11 +7405,13 @@ Requires two DF40C-10DS-0.4V(51).</description>
 <segment>
 <pinref part="U1" gate="G$1" pin="!SHDN"/>
 <wire x1="124.46" y1="81.28" x2="119.38" y2="81.28" width="0.1524" layer="91"/>
-<label x="101.6" y="81.28" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="109.22" y="78.74" size="1.016" layer="95" rot="R180" xref="yes"/>
 <pinref part="TP1" gate="G$1" pin="TESTPOINT"/>
-<wire x1="119.38" y1="81.28" x2="109.22" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="81.28" x2="101.6" y2="81.28" width="0.1524" layer="91"/>
-<junction x="109.22" y="81.28"/>
+<wire x1="119.38" y1="81.28" x2="114.3" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="81.28" x2="114.3" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="78.74" x2="111.76" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="78.74" x2="109.22" y2="78.74" width="0.1524" layer="91"/>
+<junction x="111.76" y="78.74"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <junction x="119.38" y="81.28"/>
 </segment>
