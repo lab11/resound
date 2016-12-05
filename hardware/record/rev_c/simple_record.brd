@@ -1220,6 +1220,16 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <via x="12.7" y="12.954" extent="1-16" drill="0.3048"/>
 <contactref element="U1" pad="2"/>
 <contactref element="C1" pad="2"/>
+<via x="13.462" y="14.986" extent="1-16" drill="0.508"/>
+<via x="14.732" y="14.986" extent="1-16" drill="0.508"/>
+<via x="13.462" y="16.256" extent="1-16" drill="0.508"/>
+<via x="19.05" y="16.256" extent="1-16" drill="0.508"/>
+<via x="17.78" y="16.256" extent="1-16" drill="0.508"/>
+<via x="16.51" y="16.256" extent="1-16" drill="0.508"/>
+<via x="16.51" y="17.78" extent="1-16" drill="0.508"/>
+<via x="17.78" y="17.78" extent="1-16" drill="0.508"/>
+<via x="19.05" y="17.78" extent="1-16" drill="0.508"/>
+<via x="12.192" y="16.256" extent="1-16" drill="0.508"/>
 </signal>
 <signal name="PV+">
 <contactref element="R5" pad="2"/>
